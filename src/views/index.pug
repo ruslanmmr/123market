@@ -1,0 +1,147 @@
+doctype html
+html(lang="ru")
+  head
+    include blocks/head
+  body
+    .wrapper
+      main.main
+        .profile
+          .container
+            .profile-head
+              .profile-head__photo
+                img(src="img/icons/portret.svg", alt="")
+              .profile-head__content
+                .profile-head__top
+                  .profile-head__points
+                    img(src="img/icons/monet.svg", alt="")
+                    span 25
+                  .profile-head__text
+                    h2.profile__title.profile-head__title Добро пожаловать <nobr>John Doe!</nobr>
+                    span.text Ниже вы можете просмотреть информацию о вашем магазине
+                ul.profile-head__statistics-list
+                  li
+                    span 546 
+                    | просмотров всего
+                  li
+                    span 35 
+                    | просмотров сегодня
+                  li
+                    span 12 
+                    | переходов
+                .profile-head__button
+                  a(href="#").btn.btn_style1 Выделить Обьявления
+                  span.profile-head__alert Количество просмотров обьявлений падают.<br> Выделяйте обьявления чтобы привлечь больше клиентов
+            .profile-content
+              h2.profile__title.profile-content__title Продвигай свой бизнеc
+              span.text.sub-title.profile-content__sub-title Как получить баллы?
+              span.text Накапливайте балы и продвигате свой бизнесс.<br> Выполняя следующие действия вы сможете выделять свои объявления.
+              .actions
+                .actions__row
+                  .actions-block
+                    .actions-block__container
+                      .actions-block__top
+                        .actions-block__head
+                          span +1 БАЛЛ
+                        .actions-block__content
+                          img(src="img/icons/icon1.svg", alt="").actions-block__icon
+                          span.actions-block__title Подтверди Email
+                          span.actions-block__sub-title Подтверди адресс электронной почты и получи бонус.
+                      .actions-block__footer
+                        span.actions-block__link Проверьте свою е-почту
+                  .actions-block.actions-block_done
+                    .actions-block__container
+                      .actions-block__top
+                        .actions-block__head
+                          span ВЫПОЛНЕНО
+                        .actions-block__content
+                          img(src="img/icons/monet.svg", alt="").actions-block__icon
+                          span.actions-block__title Открой Магазин
+                          //
+                            span.actions-block__sub-title Подтверди адресс электронной почты и получи бонус.
+                      .actions-block__footer
+                        span.actions-block__link вы заработали <strong>2 балла</strong>
+                  .actions-block
+                    .actions-block__container
+                      .actions-block__top
+                        .actions-block__head
+                          span +5 БАЛЛОВ
+                        .actions-block__content
+                          img(src="img/icons/icon3.svg", alt="").actions-block__icon
+                          span.actions-block__title Добавь Обьявление
+                          span.actions-block__sub-title Подтверди адресс
+                      .actions-block__footer
+                        a(href="#").actions-block__link ДОБАВИТЬ
+                  .actions-block
+                    .actions-block__container
+                      .actions-block__top
+                        .actions-block__head
+                          span +10 БАЛЛОВ
+                        .actions-block__content
+                          img(src="img/icons/icon4.svg", alt="").actions-block__icon
+                          span.actions-block__title Первая Покупка
+                          span.actions-block__sub-title Подтверди адресс электронной почты и получи бонус.
+                      .actions-block__footer
+                        a(href="#").actions-block__link СМОТРЕТЬ ТОВАРЫ
+                  .actions-block
+                    .actions-block__container
+                      .actions-block__head
+                        span +1 БАЛЛ
+                      .actions-block__content
+                        img(src="img/icons/icon5.svg", alt="").actions-block__icon
+                        span.actions-block__title Поздоровайся
+                        span.actions-block__sub-title Подтверди адресс электронной почты и получи бонус.
+                      .actions-block__footer
+                        a(href="#").actions-block__link ОТКРЫТЬ
+              .profile-visit
+                .profile-visit__head
+                  .profile-visit__text
+                    span.text.sub-title Ежедневное Посещение
+                    span.text Заходи каждый день на сайт и получай дополнительные баллы!
+                  .profile-visit__button
+                    a(href="#").btn.btn_style2 ПОЛУЧИТЬ БОНУС
+              .profile-visit.profile-visit_type2
+                .profile-visit__head
+                  .profile-visit__text
+                    span.text.sub-title Ежедневное Посещение
+                    span.text Заходи каждый день на сайт и получай дополнительные баллы!
+                  .profile-visit__button
+                    a(href="#").btn.btn_style2 ПОЛУЧИТЬ БОНУС
+                ul.profile-visit__list
+                  li
+                    .profile-visit__image
+                      span
+                      img(src="img/icons/monet.svg", alt="")
+                    | Понедельник
+                  li
+                    .profile-visit__image
+                      span
+                      img(src="img/icons/monet.svg", alt="")
+                    | Вторник
+                  li
+                    .profile-visit__image
+                      span
+                      img(src="img/icons/monet.svg", alt="")
+                    | Среда
+                  li
+                    .profile-visit__image
+                      span
+                      img(src="img/icons/monet.svg", alt="")
+                    | Четверг
+                  li
+                    .profile-visit__image
+                      span
+                      img(src="img/icons/monet.svg", alt="")
+                    | Пятница
+                  li
+                    .profile-visit__image
+                      span
+                      img(src="img/icons/monet.svg", alt="")
+                    | Суббота
+                  li.active
+                    .profile-visit__image
+                      span
+                      img(src="img/icons/monet.svg", alt="")
+                    | Воскресенье
+
+
+
